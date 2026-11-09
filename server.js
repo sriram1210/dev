@@ -77,7 +77,7 @@ app.delete("/tasks/:id", (req, res) => {
     }
 
     tasks.splice(index, 1);
-    res.json({ message: "Task deleted successfully" });
+    res.json({ message: "Task deleted success" });
 });
 
 const PORT = process.env.PORT || 3000;
